@@ -131,7 +131,7 @@ export const milestones: Milestone[] = [
     title: 'My first competition',
     kind: 'competition',
     description:
-      'Pro-Am Bronze Smooth at a regional comp. Placed second in Waltz — but the real win was walking onto that floor at all.',
+      'Pro-Am Bronze Smooth at a regional comp. Placed first in Waltz — but the real win was walking onto that floor at all.',
     image: '/images/competition.png',
   },
   {
@@ -329,7 +329,7 @@ export const events: DanceEvent[] = [
     recap:
       'My first competition. Four heats, one very long day, and a huge amount of support from my studio family.',
     image: '/images/competition.png',
-    result: '2nd place, Bronze Waltz',
+    result: '1st place, Bronze Waltz',
   },
   {
     date: '2025-12-19',
