@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
+import { DemoBanner } from '@/components/demo-banner'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
@@ -14,11 +15,11 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Andrew — A Ballroom Dance Journey',
-    template: '%s · Andrew Dances',
+    default: 'Dance Journal — A Ballroom Dance Journey (Demo)',
+    template: '%s · Dance Journal',
   },
   description:
-    'From my first tentative box step to performing in showcases. A personal scrapbook of learning ballroom dance as an adult.',
+    'A demo template for a personal ballroom dance journal: milestones, dances and progress, events, a gallery, and goals. All content is fictional.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -49,6 +50,7 @@ export default function RootLayout({
         >
           Skip to content
         </a>
+        <DemoBanner />
         <SiteHeader />
         <main id="main" className="flex-1">
           {children}

@@ -15,7 +15,7 @@ export default function JourneyPage() {
         title="Three years, one step at a time."
         description="Every first lesson, new dance, level check-out, and performance — the milestones that turned a curious beginner into someone who can’t imagine life without dancing."
         image="/images/first-lesson.png"
-        imageAlt="Andrew in an early private lesson with his instructor"
+        imageAlt="A student in an early private lesson with an instructor"
       />
       <Timeline />
     </>

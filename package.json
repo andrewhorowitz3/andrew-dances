@@ -1,5 +1,9 @@
 {
-  "name": "my-project",
+  "name": "demopromptwebsite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewhorowitz3/demopromptwebsite.git"
+  },
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@12.3.4",

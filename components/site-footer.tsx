@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { navItems } from '@/lib/nav'
-import { profile } from '@/lib/content'
+import { demoNotice, profile } from '@/lib/content'
 
 export function SiteFooter() {
   return (
@@ -28,9 +28,10 @@ export function SiteFooter() {
         </nav>
       </div>
       <div className="border-t border-background/10">
-        <p className="mx-auto max-w-6xl px-5 py-5 text-xs tracking-wide text-background/50 md:px-8">
-          {`© ${new Date().getFullYear()} ${profile.name}. Made with love for the dance floor.`}
-        </p>
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-5 text-xs tracking-wide text-background/50 md:px-8">
+          {demoNotice.enabled && <p>{demoNotice.message}</p>}
+          <p>{`© ${new Date().getFullYear()} ${profile.name}. Made with love for the dance floor.`}</p>
+        </div>
       </div>
     </footer>
   )

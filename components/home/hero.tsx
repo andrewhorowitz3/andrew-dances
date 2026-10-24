@@ -22,7 +22,7 @@ export function Hero() {
         <p className="text-xs font-medium uppercase tracking-[0.3em] text-background/80">
           {`Dancing since ${formatMonthYear(profile.startedDancing)}`}
         </p>
-        <h1 className="mt-4 text-7xl leading-none tracking-tight md:text-9xl">
+        <h1 className="mt-4 text-6xl leading-none tracking-tight text-balance md:text-8xl">
           {profile.name}
           <span className="text-brand">.</span>
         </h1>

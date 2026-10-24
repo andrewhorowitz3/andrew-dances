@@ -11,8 +11,18 @@
  * Dates use the format "YYYY-MM-DD".
  */
 
+/**
+ * Shown as a banner on every page and in the footer.
+ * Set `enabled: false` once you replace the sample content with your own.
+ */
+export const demoNotice = {
+  enabled: true,
+  message:
+    'Demo site only. The name, milestones, events, and photos are fictional placeholders (images are AI-generated).',
+}
+
 export const profile = {
-  name: 'Andrew',
+  name: 'Dance Journal',
   tagline: 'From my first tentative box step to performing in showcases.',
   startedDancing: '2023-10-14',
   intro:
@@ -363,7 +373,7 @@ export type GalleryItem = {
 export const gallery: GalleryItem[] = [
   {
     src: '/images/first-lesson.png',
-    alt: 'Andrew in a private lesson with his instructor in a mirrored studio',
+    alt: 'A student in a private lesson with an instructor in a mirrored studio',
     caption: 'Early days in the studio',
     category: 'Lessons',
   },
